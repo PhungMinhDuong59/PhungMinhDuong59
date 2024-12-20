@@ -19,5 +19,7 @@ namespace demo.Context
                 .HasOne(p => p.Customer)
                 .WithMany(c => c.Pets);                                                                                             
         }
+
+        // Tôi sẽ trở thành một developer giỏi
     }
 }
